@@ -1,0 +1,42 @@
+name: Fclone Bot Setup
+
+on:
+  workflow_dispatch:
+    inputs:
+      Bot_id:
+        description: 'BotFatherမှToken'
+        required: true
+      Owner_id:
+        description: 'Rose မှ Account id'
+        required: true
+
+jobs: 
+  build:
+    name: Fclone Bot Running
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preparing Source Code
+        uses: actions/checkout@v2
+      - name: Installing filesV1
+        run: |
+          bash extensions/helper/helper.sh
+      - name: Installing filesV2
+        run: |
+          unzip docker.zip
+      - name: Preparing Bot Token
+        run: echo telegram_token = ${{ github.event.inputs.Bot_id }} >> telegram_gcloner/config.ini
+      - name: Preparing User ID
+        run: echo user_ids = ${{ github.event.inputs.Owner_id }} >> telegram_gcloner/config.ini
+      - name: Installing Required Environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Installing Python3 and dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Giving Permission
+        run: chmod 777 fclone
+      - name: Running the bot
+        run: |
+          python3 telegram_gcloner/telegram_gcloner.py

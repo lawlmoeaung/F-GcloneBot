@@ -1,0 +1,39 @@
+name: Gclone Bot Set Up
+
+on:
+  workflow_dispatch:
+    inputs:
+      BOT_TOKEN:
+        description: 'BotFatherမှToken'
+        required: true
+      OWNER_ID:
+        description: 'Rose မှ Account id'
+        required: true
+jobs: 
+  build:
+    name: G CloneBot Running
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preparing Source Code
+        uses: actions/checkout@v2
+      - name: Installing filesV1
+        run: |
+          bash extensions/helper/helpar.sh
+      - name: Installing filesV2
+        run: |
+          unzip doker.zip
+      - name: Installing Required Environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Preparing Bot Token
+        run: echo BOT_TOKEN = '"${{ github.event.inputs.BOT_TOKEN }}"' >> bot/config.py
+      - name: Preparing User ID
+        run: echo OWNER_ID = ${{ github.event.inputs.OWNER_ID }} >> bot/config.py
+      - name: Installing Python3 and dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip3 install -r requirements.txt
+      - name: Running the bot
+        run: |
+          python3 -m bot
