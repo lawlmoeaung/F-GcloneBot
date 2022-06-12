@@ -13,7 +13,7 @@
 
 
 
-**glcone bot သုံးရန် token.pickle [CreateHere](https://telegra.ph/Create-tokenpickle-06-09) ဖိုင်ကို မိမိ repo ဆီ upload ထားဖို့လိုပါသည်။ လိုအပ်တဲ့ file ယူဖို့ folder အလွတ်မှာ cmd ရိုက်။ 
+☢**glcone bot သုံးရန် token.pickle [CreateHere](https://telegra.ph/Create-tokenpickle-06-09) ဖိုင်ကို မိမိ repo ဆီ upload ထားဖို့လိုပါသည်။ လိုအပ်တဲ့ file ယူဖို့ folder အလွတ်မှာ cmd ရိုက်။ 
 ပီးရင်**
 
 ``git clone https://github.com/FnGclone/F-GcloneBot``
@@ -21,18 +21,20 @@
 **ရိက်ပါ။ ပီးမှ အထက်က CreateHere က tuto အတိုင်း token.pickle ထုတ်ပါ။ token.pickle လုပ်ရန် Credentials.json [CreateHere](https://telegra.ph/Create-credentialsjson-06-09) ဖိုင်လိုပါတယ်။**
 
 
+☢**Fclone သုံးမယ်ဆိုရင် Service accounts (SA) လိုပါတယ်။ ဖုန်းနဲ့ SA လုပ်ချင်သူများ [This Repo](https://github.com/RepoLink/SA-Termux-Update) နဲ့ လုပ်ပါ။**
 
-(personal/private accounts ဖိုင်များ တင်ရန်မလိုပါ)
+
 
   # အသုံးပြုပုံ 
   
   ⚡**အညွန်းရှိ နံပါတ်များ နဲ့ ပုံတွင်နံပါတ်များ တွဲဖတ်ပါ**⚡
   
-၁။ ယခု repo ကို Fork ပါ။ or  use template လုပ်ပါ။
+၁။ ယခု repo ကို Fork ပါ။ or  use template လုပ်ပါ။ **private** သာလုပ်ပါ။
 
 ![hi](https://telegra.ph/file/7ceaa9af66ff33534cfbb.jpg)
  
 - glcone bot သုံးရန် token.pickle ဖိုင်ကို upload ပါ။ (ပထမဆုံးသုံးတဲ့အခါသာ လိုပါတယ်)ညွန်း အပေါ်ပုံ
+- (personal/private accounts ဖိုင်များတင်ရန်မလိုပါ)
 
 ၂။ Actions tab ကို နှိပ်ပါ။
 
