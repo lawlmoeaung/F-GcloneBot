@@ -39,11 +39,12 @@
 
 ၃။ workflows ဖိုင် ၂ ခုပေါ်ပါမည်။ 
 
+![h](https://telegra.ph/file/bbfc4223f0821e788094d.jpg)
+
 ၄။ Fclone သုံးလိုလျှင် fclone bot setup နှိပ်ပါ။ အလားတူ gclone သုံးလိုလျှင် gclone bot setup နှိပ်ပါ။ 
 
 ၅။ ပြီးလျှင် Run Workflow ကိုနှိပ်ပါ။ 
 
-![h](https://telegra.ph/file/bbfc4223f0821e788094d.jpg)
 ![h](https://telegra.ph/file/a51108209b6b4a16b64c0.jpg)
 
 ၆။ Bot token, teleacc ID များ ဖြည့်ပါ။
