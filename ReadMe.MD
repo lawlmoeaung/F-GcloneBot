@@ -11,7 +11,8 @@
 
 ၁။ ယခု repo ကို Fork ပါ။ or  use template လုပ်ပါ။ 
 
-**အညွန်းရှိ နံပါတ်များ နဲ့ ပုံတွင်နံပါတ်များ တွဲဖတ်ပါ**
+
+
 
 **glcone bot သုံးရန် token.pickle [CreateHere](https://telegra.ph/Create-tokenpickle-06-09) ဖိုင်ကို မိမိ repo ဆီ upload ထားဖို့လိုပါသည်။ လိုအပ်တဲ့ file ယူဖို့ folder အလွတ်မှာ cmd ရိုက်။ ပီးရင် git clone https://github.com/FnGclone/F-GcloneBot ရိက်ပါ။ ပီးမှ အထက်က CreateHere က tuto အတိုင်း token.pickle ထုတ်ပါ။ token.pickle လုပ်ရန် Credentials.json [CreateHere](https://telegra.ph/Create-credentialsjson-06-09) ဖိုင်လိုပါတယ်။**
 
@@ -21,6 +22,8 @@
 (personal/private accounts ဖိုင်များ တင်ရန်မလိုပါ)
 
   # အသုံးပြုပုံ 
+  
+  ⚡**အညွန်းရှိ နံပါတ်များ နဲ့ ပုံတွင်နံပါတ်များ တွဲဖတ်ပါ**⚡
   
 - glcone bot သုံးရန် token.pickle ဖိုင်ကို upload ပါ။ (ပထမဆုံးသုံးတဲ့အခါသာ လိုပါတယ်)ညွန်း အပေါ်ပုံ
 
