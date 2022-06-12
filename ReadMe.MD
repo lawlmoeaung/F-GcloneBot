@@ -28,7 +28,7 @@
   
   ⚡**အညွန်းရှိ နံပါတ်များ နဲ့ ပုံတွင်နံပါတ်များ တွဲဖတ်ပါ**⚡
   
-၁။ ယခု repo ကို Fork ပါ။ or  use template လုပ်ပါ။ 
+၁။ ယခု repo ကို Fork ပါ။ or  use template လုပ်ပါ။
 
 ![hi](https://telegra.ph/file/7ceaa9af66ff33534cfbb.jpg)
  
