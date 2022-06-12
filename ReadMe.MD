@@ -21,7 +21,6 @@
 **ရိက်ပါ။ ပီးမှ အထက်က CreateHere က tuto အတိုင်း token.pickle ထုတ်ပါ။ token.pickle လုပ်ရန် Credentials.json [CreateHere](https://telegra.ph/Create-credentialsjson-06-09) ဖိုင်လိုပါတယ်။**
 
 
-![hi](https://telegra.ph/file/7ceaa9af66ff33534cfbb.jpg)
 
 (personal/private accounts ဖိုင်များ တင်ရန်မလိုပါ)
 
@@ -30,6 +29,8 @@
   ⚡**အညွန်းရှိ နံပါတ်များ နဲ့ ပုံတွင်နံပါတ်များ တွဲဖတ်ပါ**⚡
   
 ၁။ ယခု repo ကို Fork ပါ။ or  use template လုပ်ပါ။ 
+
+![hi](https://telegra.ph/file/7ceaa9af66ff33534cfbb.jpg)
  
 - glcone bot သုံးရန် token.pickle ဖိုင်ကို upload ပါ။ (ပထမဆုံးသုံးတဲ့အခါသာ လိုပါတယ်)ညွန်း အပေါ်ပုံ
 
